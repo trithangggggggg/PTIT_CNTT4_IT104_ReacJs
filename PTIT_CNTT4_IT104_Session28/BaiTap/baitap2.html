@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function delayCallback(callback, time) {
+        setTimeout(() => {
+          callback(time);
+        }, time);
+      }
+
+      let delay = prompt("Nhap thoi gian delay (minis)?");
+      const abc = (param) => {
+        console.log(`ham goi sau  ${param} mini giay`);
+      };
+      delayCallback(abc, delay);
+    </script>
+  </body>
+</html>

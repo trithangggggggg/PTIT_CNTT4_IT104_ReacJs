@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    function task1() {
+      return new Promise((resolve) => {
+        setTimeout(() => {
+          console.log("Task 1 hoan thanh");
+          resolve();
+        }, 1000);
+      })
+    }
+
+    function task2() {
+      return new Promise((resolve) => {
+        setTimeout(() => {
+          console.log("Task 2 hoan thanh");
+          resolve();
+        }, 1500);
+      })
+    }
+
+    function task3() {
+      return new Promise((resolve) => {
+        setTimeout(() => {
+          console.log("Task 3 hoan thanh");
+          resolve();
+        }, 2000);
+      })
+    }
+
+    async function runTasks() {
+      await task1();
+      await task2();
+      await task3();
+      console.log("Tat ca task da xong");
+    }
+
+    runTasks();
+    
+  </script>
+</body>
+</html>

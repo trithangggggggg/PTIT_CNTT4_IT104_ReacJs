@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function calculate(a, b, c) {
+        let result = a + b;
+        c(result);
+      }
+      function callBackCaculate(result) {
+        console.log("ket qua cua phep toan la: ", result);
+        document.write(`ket qua la : ${result}`);
+      }
+      let A = +prompt("Moi nhap so thu nhat?");
+      let B = +prompt("Moi nhap so thu hai?");
+      calculate(A, B, callBackCaculate);
+    </script>
+  </body>
+</html>
