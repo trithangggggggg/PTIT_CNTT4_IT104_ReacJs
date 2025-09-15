@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "tri thang"
+    },
+    {
+      "id": 2,
+      "name": "thanh ha"
+    },
+    {
+      "name": "thanhh ha",
+      "id": 3
+    }
+  ],
+  "todo": [],
+  "products": [
+    {
+      "id": 1,
+      "name": "iphone15",
+      "price": 44,
+      "quantity": 6
+    },
+    {
+      "id": 2,
+      "name": "iphone16"
+    },
+    {
+      "name": "iphone17",
+      "id": 3
+    },
+    {
+      "name": "iphone5",
+      "id": 4
+    }
+  ]
+}
