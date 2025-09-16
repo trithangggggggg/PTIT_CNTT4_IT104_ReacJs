@@ -1,0 +1,22 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "trithangne",
+      "age":19,
+      "email": "trithang@gmail.com"
+    },
+    {
+      "id":2,
+      "name":"thanhhane",
+      "age":17,
+      "email":"thanhha@gmail.com"
+    }
+    ,{
+      "id":3,
+      "name":"tuanminh",
+      "age":18,
+      "email":"tuanminhngu@gmail.com"
+    }
+  ]
+}
