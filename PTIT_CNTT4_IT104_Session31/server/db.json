@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Choi free fire",
+      "image": "https://cdn-media.sforum.vn/storage/app/media/wp-content/uploads/2024/02/avatar-ff-ngau-thumb.jpg",
+      "content": "Rat hay rat y nghia ",
+      "date": "17/9",
+      "status": "Đã xuất bản"
+    },
+    {
+      "id": 2,
+      "title": "Choi lien quan",
+      "image": "https://hoanghamobile.com/tin-tuc/wp-content/uploads/2023/07/anh-lien-quan-54.jpg",
+      "content": "Rat hay rat y nghia ",
+      "date": "14/9",
+      "status": "Đã xuất bản"
+    },
+    {
+      "id": 3,
+      "title": "Choi pubg",
+      "content": "Rat hay rat y nghia ",
+      "image": "https://cdn.tgdd.vn/Files/2018/10/25/1126811/cau-hinh-cho-may-tinh-choi-muot-pubg-la-bao-nhieu--1.jpg",
+      "date": "12/9",
+      "status": "Đã xuất bản"
+    },
+    {
+      "id": 4,
+      "title": "Choi lua chua",
+      "content": "Rat hay rat y nghia ",
+      "image": "https://hoangphuconline.vn/media/magefan_blog/2021/12/lua-chua-la-gi1.jpg",
+      "date": "18/9",
+      "status": "Đã xuất bản"
+    },
+    {
+      "id": 5,
+      "title": "Choi fai fai",
+      "content": "Rat hay rat y nghia ",
+      "image": "https://cdn2.fptshop.com.vn/unsafe/Uploads/images/tin-tuc/177410/Originals/anh-lien-quan-1.jpg",
+      "date": "19/9",
+      "status": "Đã xuất bản"
+    },
+    {
+      "title": "Chơi gáiii",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpzmeqGNlss5FbK-9ZqbtVHVUhNkmZuXr4TA&s",
+      "content": "hehehe",
+      "status": "Đã xuất bản",
+      "date": "18/9",
+      "id": 6
+    }
+  ]
+}
