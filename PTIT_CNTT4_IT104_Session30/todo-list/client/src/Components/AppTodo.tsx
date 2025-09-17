@@ -125,7 +125,7 @@ export default function AppTodo() {
   const filteredTasks = tasks.filter((task) => {
     if (filter === "completed") return task.status === true;
     if (filter === "active") return task.status === false;
-    return true; // all
+    return true; 
   });
 
   return (
