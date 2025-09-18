@@ -10,23 +10,26 @@ import ThemeSwitcher from "./Components/ThemeSwitcher";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Register from "./Components/Register";
 import Login from "./Components/Login";
+import ShowLogin from "./Components/ShowLogin";
 
 export default function App() {
   return (
     <div>
       <h1>redux</h1>
-      <Counter></Counter>
-      <Student></Student>
-      <Profile></Profile>
-      <ListUser></ListUser>
-      <RandomNumber></RandomNumber>
-      <ChangeState></ChangeState>
-      <ThemeSwitcher></ThemeSwitcher>
+      <Counter />
+      <Student />
+      <Profile />
+      <ListUser />
+      <RandomNumber />
+      <ChangeState />
+      <ThemeSwitcher />
 
+      {/* bai 7,8 */}
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Register />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/show" element={<ShowLogin />} />
         </Routes>
       </BrowserRouter>
     </div>

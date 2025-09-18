@@ -7,6 +7,7 @@ import { ReducersUser } from "./User";
 import { companyReducer } from "./Company";
 import { themeReducer } from "./theme";
 import { authReducer } from "./auth";
+import { loginReducer } from "./loginReducer";
 
 export const rootReducer = combineReducers({
   counter: reducerCounter,
@@ -17,4 +18,5 @@ export const rootReducer = combineReducers({
   company: companyReducer,
   theme: themeReducer,
   auth: authReducer,
+  login: loginReducer,
 });

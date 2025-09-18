@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 
 export default function Login() {
-  
   const registeredUser = useSelector((state: any) => state.auth);
+  const dispatch = useDispatch();
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -17,7 +17,11 @@ export default function Login() {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    alert(`Đăng nhập với: ${email} - ${password}`);
+
+    // Lưu vào redux
+    dispatch({ type: "LOGIN_SUCCESS", payload: email });
+
+    alert(`Đăng nhập thành công với: ${email}`);
   };
 
   return (
