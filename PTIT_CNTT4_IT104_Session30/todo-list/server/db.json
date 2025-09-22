@@ -3,7 +3,7 @@
     {
       "id": 2,
       "title": "Chơi Liên Quân ",
-      "status": false
+      "status": true
     },
     {
       "title": "Chơi Game ",
@@ -14,6 +14,16 @@
       "title": "Chơi cà phê",
       "status": true,
       "id": 5
+    },
+    {
+      "title": "Chơi game với bạn",
+      "status": false,
+      "id": 6
+    },
+    {
+      "title": "Làm 1 đống bài tập",
+      "status": false,
+      "id": 7
     }
   ]
 }
