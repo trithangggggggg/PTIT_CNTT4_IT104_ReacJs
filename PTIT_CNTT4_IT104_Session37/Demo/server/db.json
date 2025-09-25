@@ -1,0 +1,58 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "trí thắng ",
+      "age": 19,
+      "lop": "12G"
+    },
+    {
+      "id": 2,
+      "name": "thanh ha ",
+      "age": 19,
+      "lop": "12G"
+    },
+    {
+      "id": 3,
+      "name": "viet tien",
+      "age": 19,
+      "lop": "12G"
+    },
+    {
+      "id": 4,
+      "name": "Văn Ánh cute",
+      "age": 19,
+      "grade": "12G"
+    },
+    {
+      "id": 5,
+      "name": "tiến xinh gái",
+      "age": 16,
+      "grade": "12C"
+    },
+    {
+      "name": "trí thắng là số 1",
+      "age": 19,
+      "grade": "12G",
+      "id": 6
+    },
+    {
+      "id": 9,
+      "name": "Thanh Hà",
+      "age": 19,
+      "grade": "12G"
+    },
+    {
+      "name": "tôi là nhà vua",
+      "age": 100,
+      "grade": "12H",
+      "id": 11
+    },
+    {
+      "name": "undefined",
+      "age": 20,
+      "grade": "12A",
+      "id": 12
+    }
+  ]
+}
